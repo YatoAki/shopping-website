@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Home.css"
-import mac from "./Component/mac.jpg"
+import mac from "./images/mac.jpg"
 
 const Home = () => {
 
