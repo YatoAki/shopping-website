@@ -10,7 +10,7 @@
 
 .Nav li{
     padding: 1rem 2.5rem;
-    padding-right: 0;
+    padding-right: 1.5rem;
     border-radius: 0 0.3rem 0.3rem 0;
     cursor: pointer;
     transition: all 0.1s ease-in;

@@ -1,10 +1,10 @@
 import React from "react";
 
-const ShoppingArea = () => {
+const ShoppingArea = ({currentArea}) => {
 
     return(
         <div>
-            THis si ShoppingArea
+            THis is {currentArea}
         </div>
     )
 }

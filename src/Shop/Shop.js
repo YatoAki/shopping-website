@@ -13,9 +13,9 @@ const Shop = ()=> {
     }
 
     return(
-        <div class="shop">
-            <Nav/>
-            <ShoppingArea/>
+        <div className="shop">
+            <Nav navClicked = {navClicked}/>
+            <ShoppingArea currentArea={currentArea}/>
             <Cart/>
         </div>
     )
