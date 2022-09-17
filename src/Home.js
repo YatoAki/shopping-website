@@ -18,7 +18,7 @@ const Home = () => {
             <div class="contact">
                 <img src={mac} alt="Mac" />
                 <a href="/shop">Shop</a>
-                <p>This is more than just a laptop</p>
+                <p>This is more than just a product</p>
             </div>
         </div>
     )
