@@ -12,3 +12,26 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 10rem;
+}
+
+header > ul{
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+
+header > ul li{
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+header > h1{
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+}

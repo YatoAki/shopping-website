@@ -1,27 +1,3 @@
-
-.Home header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 10rem;
-}
-
-.Home ul{
-    list-style: none;
-    display: flex;
-    gap: 5rem;
-}
-
-.Home ul li{
-    font-size: 0.8rem;
-    letter-spacing: 0.1rem;
-}
-
-.Home h1{
-    font-weight: 300;
-    letter-spacing: 0.5rem;
-}
-
 .contact{
     display: flex;
     flex-direction: column;
@@ -36,13 +12,14 @@
 }
 
 .contact a{
-    border: 1px solid #969696;
-    color: #b1b1b1;
+    border: 2px solid #969696;
+    color: #e0dede;
     padding: 1rem 3rem;
     border-radius: 3px;
     font-size: 0.9rem;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
     margin-top: 2rem;
+    font-weight: bold;
 }
 
 .contact p{
