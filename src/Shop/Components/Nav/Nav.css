@@ -1,0 +1,25 @@
+.Nav > ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap:1.3rem;
+    font-size: 0.8rem;
+}
+
+.Nav li{
+    padding: 1rem 2.5rem;
+    padding-right: 0;
+    border-radius: 0 0.3rem 0.3rem 0;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+.Nav li:hover{
+    background-color: #252525;
+}
+
+.Nav .active{
+    background-color: #252525;
+}

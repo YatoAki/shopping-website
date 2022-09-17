@@ -9,8 +9,8 @@ const Shop = ()=> {
     return(
         <div class="shop">
             <Nav/>
-            <Cart/>
             <ShoppingArea/>
+            <Cart/>
         </div>
     )
 }
