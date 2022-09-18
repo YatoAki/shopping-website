@@ -1,15 +1,24 @@
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     border-radius: 0.5rem;
     cursor: pointer;
     transition: all 0.2s ease-in;
+    gap:1rem;
 }
 
 .card:hover{
     transform: scale(1.03);
+}
+
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:0.4rem;
 }
 
 .card img{
@@ -21,7 +30,6 @@
     font-weight: 400;
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
-    margin: 0.5rem 0;
 }
 
 .card h4{
