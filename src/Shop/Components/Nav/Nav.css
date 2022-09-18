@@ -1,3 +1,7 @@
+.Nav{
+    margin-top: 5rem;
+}
+
 .Nav > ul{
     list-style: none;
     display: flex;
@@ -17,9 +21,9 @@
 }
 
 .Nav li:hover{
-    background-color: #252525;
+    background-color: #131313;
 }
 
 .Nav .active{
-    background-color: #252525;
+    background-color: #131313;
 }
