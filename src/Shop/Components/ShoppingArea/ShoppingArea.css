@@ -1,0 +1,10 @@
+.shoppingArea{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.shoppingArea img {
+    width: 250px;
+    object-fit: cover;
+}
