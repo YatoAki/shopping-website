@@ -9,7 +9,7 @@ const Home = () => {
         <div class="Home">
             <div class="contact">
                 <img src={mac} alt="Mac" />
-                <a href="/shop">SHOP</a>
+                <a href="/shopping-website/shop">SHOP</a>
                 <p>This is more than just a product</p>
             </div>
         </div>

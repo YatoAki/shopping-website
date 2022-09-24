@@ -9,7 +9,7 @@ root.render(
     <header>
         <h1><a href="/">Apple Store</a></h1>
           <ul>
-          <li><a href="/shopping-website">Home</a></li>
+          <li><a href="/shopping-website/home">Home</a></li>
             <li><a href="/shopping-website/shop">Shop</a></li>
             <li><a href="/shopping-website/about">About</a></li>
       </ul>
