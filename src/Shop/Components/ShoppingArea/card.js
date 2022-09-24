@@ -8,7 +8,7 @@ const Card = ({image, alt,price}) => {
             <img src={image} alt={alt}/>
             <div>
                 <h3>{alt}</h3>
-                <h4>${price}</h4>
+                <h4>$ {price}</h4>
             </div>
         </div>
     )
