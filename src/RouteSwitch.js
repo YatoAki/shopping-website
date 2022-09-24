@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home/Home.js";
 import Shop from "./Shop/Shop.js";
-import Support from "./Support/Support.js"
+import About from "./About/About.js"
 
 const RouteSwitch = () => {
   return (
@@ -10,7 +10,7 @@ const RouteSwitch = () => {
         <Route path="/" element={<Home />} />
         <Route path="/" element={<Home/>}/>
         <Route path="/shop" element={<Shop />} />
-        <Route path="/support" element={<Support />}/>
+        <Route path="/about" element={<About />}/>
       </Routes>
     </BrowserRouter>
   );

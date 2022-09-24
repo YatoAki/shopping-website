@@ -11,7 +11,7 @@ root.render(
           <ul>
           <li><a href="/">Home</a></li>
             <li><a href="/shop">Shop</a></li>
-            <li><a href="/support">Support</a></li>
+            <li><a href="/about">About</a></li>
       </ul>
     </header>
     <RouteSwitch />
