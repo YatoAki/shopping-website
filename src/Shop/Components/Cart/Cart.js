@@ -22,7 +22,7 @@ const Cart = ({selectedItems,clickedToRemove}) => {
                 })
             }
             <div className="total">
-                <h3>Total</h3>
+                <h3>Total Cost</h3>
                 <p>{calculateTotal().toLocaleString('en-US')} $</p>
             </div>
         </div>

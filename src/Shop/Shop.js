@@ -31,7 +31,6 @@ const Shop = ()=> {
         }
         let copy = JSON.parse(JSON.stringify(selectedItems))
         setSelectedItems(copy)
-        console.log(selectedItems[name])
     }
 
     return(
