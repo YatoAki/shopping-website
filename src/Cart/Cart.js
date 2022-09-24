@@ -1,11 +1,11 @@
 import React from "react";
 
-const News = () => {
+const Cart = () => {
     return(
         <div>
-            This is news
+            This is Cart
         </div>
     )
 }
 
-export default News
+export default Cart

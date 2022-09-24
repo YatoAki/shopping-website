@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home/Home.js";
 import Shop from "./Shop/Shop.js";
 import Support from "./Support/Support.js"
-import News from "./News/News.js"
+import Cart from "./Cart/Cart.js"
 
 const RouteSwitch = () => {
   return (
@@ -11,7 +11,7 @@ const RouteSwitch = () => {
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/support" element={<Support />}/>
-        <Route path="/News" element={<News/>}/>
+        <Route path="/cart" element={<Cart/>}/>
       </Routes>
     </BrowserRouter>
   );
