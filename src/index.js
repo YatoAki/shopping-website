@@ -9,9 +9,9 @@ root.render(
     <header>
         <h1><a href="/">Apple Store</a></h1>
           <ul>
+          <li><a href="/">Home</a></li>
             <li><a href="/shop">Shop</a></li>
             <li><a href="/support">Support</a></li>
-            <li><a href="/cart">Cart</a></li>
       </ul>
     </header>
     <RouteSwitch />
