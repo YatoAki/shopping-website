@@ -23,11 +23,22 @@ const Shop = ()=> {
         setSelectedItems(copy)
     }
 
+    const clickedToRemove = (name)=>{
+        if (selectedItems[name][1] > 1){
+            selectedItems[name] = [selectedItems[name][0],--selectedItems[name][1]]
+        }else{
+            delete selectedItems[name]
+        }
+        let copy = JSON.parse(JSON.stringify(selectedItems))
+        setSelectedItems(copy)
+        console.log(selectedItems[name])
+    }
+
     return(
         <div className="shop">
             <Nav navClicked = {navClicked}/>
             <ShoppingArea currentArea={currentArea} itemClicked={itemClicked}/>
-            <Cart selectedItems={selectedItems}/>
+            <Cart selectedItems={selectedItems} clickedToRemove={clickedToRemove}/>
         </div>
     )
 }

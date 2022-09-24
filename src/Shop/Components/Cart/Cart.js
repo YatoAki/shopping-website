@@ -2,7 +2,7 @@ import React from "react";
 import CartTemplate from "./Components/CartTemplate.js"
 import "./Cart.css"
 
-const Cart = ({selectedItems}) => {
+const Cart = ({selectedItems,clickedToRemove}) => {
 
     const calculateTotal = () => {
         let count = 0
@@ -17,7 +17,7 @@ const Cart = ({selectedItems}) => {
             {
                 Object.keys(selectedItems).map( key => {
                     return(
-                        <CartTemplate name={key} price={selectedItems[key][0]} count={selectedItems[key][1]} />
+                        <CartTemplate name={key} price={selectedItems[key][0]} count={selectedItems[key][1]} clickedToRemove={clickedToRemove} key={key}/>
                     )
                 })
             }
