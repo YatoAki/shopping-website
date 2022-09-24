@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-website/static/css/main.8096716c.css",
-    "main.js": "/shopping-website/static/js/main.0bcc28fe.js",
+    "main.js": "/shopping-website/static/js/main.6159ace3.js",
     "static/media/iPhone 11 Pro.png": "/shopping-website/static/media/iPhone 11 Pro.63aa775a04087102c5d5.png",
     "static/media/iPhone XR.png": "/shopping-website/static/media/iPhone XR.682d394ea50ee196244c.png",
     "static/media/iPhone 7 Plus.png": "/shopping-website/static/media/iPhone 7 Plus.43e0959f1f1c69aa8857.png",
@@ -25,10 +25,10 @@
     "static/media/macstudio.png": "/shopping-website/static/media/macstudio.1045d0ee1c437b38c667.png",
     "index.html": "/shopping-website/index.html",
     "main.8096716c.css.map": "/shopping-website/static/css/main.8096716c.css.map",
-    "main.0bcc28fe.js.map": "/shopping-website/static/js/main.0bcc28fe.js.map"
+    "main.6159ace3.js.map": "/shopping-website/static/js/main.6159ace3.js.map"
   },
   "entrypoints": [
     "static/css/main.8096716c.css",
-    "static/js/main.0bcc28fe.js"
+    "static/js/main.6159ace3.js"
   ]
 }
