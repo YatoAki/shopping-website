@@ -19,14 +19,15 @@ const Shop = ()=> {
         }else{
             selectedItems[name] = [price,1]
         }
-        console.log(selectedItems[name])
+        let copy = JSON.parse(JSON.stringify(selectedItems))
+        setSelectedItems(copy)
     }
 
     return(
         <div className="shop">
             <Nav navClicked = {navClicked}/>
             <ShoppingArea currentArea={currentArea} itemClicked={itemClicked}/>
-            <Cart/>
+            <Cart selectedItems={selectedItems}/>
         </div>
     )
 }
