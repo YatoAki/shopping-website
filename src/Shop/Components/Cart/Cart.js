@@ -23,7 +23,7 @@ const Cart = ({selectedItems}) => {
             }
             <div className="total">
                 <h3>Total</h3>
-                <p>{calculateTotal()} $</p>
+                <p>{calculateTotal().toLocaleString('en-US')} $</p>
             </div>
         </div>
     )
