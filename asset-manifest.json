@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/shopping-website/static/css/main.8096716c.css",
+    "main.js": "/shopping-website/static/js/main.0bcc28fe.js",
+    "static/media/iPhone 11 Pro.png": "/shopping-website/static/media/iPhone 11 Pro.63aa775a04087102c5d5.png",
+    "static/media/iPhone XR.png": "/shopping-website/static/media/iPhone XR.682d394ea50ee196244c.png",
+    "static/media/iPhone 7 Plus.png": "/shopping-website/static/media/iPhone 7 Plus.43e0959f1f1c69aa8857.png",
+    "static/media/macbookpro.png": "/shopping-website/static/media/macbookpro.5c7ea543ac83edeb7d66.png",
+    "static/media/iPhone 8 Plus.png": "/shopping-website/static/media/iPhone 8 Plus.7d2175894ebfdf557044.png",
+    "static/media/iPhone X.png": "/shopping-website/static/media/iPhone X.2b6e9750460570c371ff.png",
+    "static/media/macbookair.png": "/shopping-website/static/media/macbookair.e048b0f90e92b6055bbd.png",
+    "static/media/imac.png": "/shopping-website/static/media/imac.9f877fda3fd8153d0947.png",
+    "static/media/macmini.png": "/shopping-website/static/media/macmini.e3f0975cee04735291b1.png",
+    "static/media/clearcase.png": "/shopping-website/static/media/clearcase.d04dc78f4c0b5240a29a.png",
+    "static/media/appleWatchUltra.png": "/shopping-website/static/media/appleWatchUltra.d526344a065a23c2897f.png",
+    "static/media/appleWatchS8.png": "/shopping-website/static/media/appleWatchS8.690e08207e198a6c49dc.png",
+    "static/media/appleWatchHermes.png": "/shopping-website/static/media/appleWatchHermes.70aca21f43314563dfb3.png",
+    "static/media/leatherwallet.png": "/shopping-website/static/media/leatherwallet.b52d9fe0b9a5846875f9.png",
+    "static/media/airpods_3nd_Gen.png": "/shopping-website/static/media/airpods_3nd_Gen.97c07a20dab0a3ee3c9b.png",
+    "static/media/airpods_max.png": "/shopping-website/static/media/airpods_max.062b0a220bc79f7fd694.png",
+    "static/media/airpods_pro_2nd_Gen.png": "/shopping-website/static/media/airpods_pro_2nd_Gen.06999e306f97eb301f45.png",
+    "static/media/airpods_2nd_Gen.png": "/shopping-website/static/media/airpods_2nd_Gen.6269fb19edd0ae25d846.png",
+    "static/media/appleWatchSE.png": "/shopping-website/static/media/appleWatchSE.bfb123fef4ddcca6dae1.png",
+    "static/media/mac.jpg": "/shopping-website/static/media/mac.777024e9f5e8dd6a3c48.jpg",
+    "static/media/macstudio.png": "/shopping-website/static/media/macstudio.1045d0ee1c437b38c667.png",
+    "index.html": "/shopping-website/index.html",
+    "main.8096716c.css.map": "/shopping-website/static/css/main.8096716c.css.map",
+    "main.0bcc28fe.js.map": "/shopping-website/static/js/main.0bcc28fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8096716c.css",
+    "static/js/main.0bcc28fe.js"
+  ]
+}
