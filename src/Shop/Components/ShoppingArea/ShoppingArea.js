@@ -26,7 +26,7 @@ import airpodsPro2G from "./airpods/airpods_pro_2nd_Gen.png"
 import clearcase from "./accessories/clearcase.png"
 import leatherwallet from "./accessories/leatherwallet.png"
 
-const ShoppingArea = ({currentArea}) => {
+const ShoppingArea = ({currentArea,itemClicked}) => {
 
     const [cards,setCards] = useState({
         "iPhone 11 Pro": [iphone11Pro,899],
@@ -80,7 +80,7 @@ const ShoppingArea = ({currentArea}) => {
             {
                 Object.keys(cards).map( key => {
                     return(
-                        <Card image={cards[key][0]} alt={key} price={cards[key][1]} key={key}/>
+                        <Card itemClicked={itemClicked} image={cards[key][0]} alt={key} price={cards[key][1]} key={key}/>
                     )
                 })
             }
